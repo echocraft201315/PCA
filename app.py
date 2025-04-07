@@ -81,8 +81,6 @@ loadings = pd.DataFrame(
 )
 print(loadings)
 
-# Look at explained variance
-
 # plot_variance(pca)
 mi_scores = make_mi_scores(X_pca, y, discrete_features=False)
 print(mi_scores)
