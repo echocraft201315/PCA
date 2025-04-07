@@ -17,7 +17,6 @@ plt.rc(
     titlepad=10,
 )
 
-
 def plot_variance(pca, width=8, dpi=100):
     # Create figure
     fig, axs = plt.subplots(1, 2)
